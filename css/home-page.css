@@ -1,0 +1,364 @@
+.logo {
+	width: 100%;
+	height: auto;
+}
+
+.home-content-square-wrapper {
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+.home-content-square-wrapper-small {
+    height: 180px;
+}
+
+#home-content-a {
+	/*background-color: #000;*/
+	width: 270px;
+}
+
+#home-content-b {
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-color: #fff;
+	background-image: url(../img/scratchcard-solutions-home-plane.jpeg);
+    background-position: center;
+}
+
+#home-content-c {
+	/*background-color: #0ff;*/
+}
+
+#home-content-d {
+	/*background-color: #0ff;*/
+	width: 270px;
+}
+
+#home-content-e {
+	/*background-color: #000;*/
+}
+
+#home-content-f {
+	/*background-color: #fff;*/
+}
+
+
+.home-content-square {
+    display: inline-block;
+    position: absolute;
+}
+
+#home-content-aa {
+    width: 170px;
+    height: 170px;
+    top: 100px;
+    left: 100px;
+    background-color: rgb(88,91,92);
+}
+#home-content-aa-p {
+	color: #fff;
+}
+#home-content-ab {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(150,150,150);
+    top: 100px;
+    left: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("../img/scratchcard-solutions-home-jet-1.jpeg");
+}
+#home-content-ac {
+	width: 50px;
+	height: 50px;
+	background-color: rgb(39,88,159);
+	top: 50px;
+	left: 220px;
+}
+#home-content-ad {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(150,150,150);
+    top: 270px;
+    left: 150px;
+}
+
+#home-content-logo {
+	width: 348px;
+	height: 119px;
+	top: 50px;
+	left: 0;
+	border: 1px solid #000;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+
+/* Doesn't Exist? */
+/*#home-content-ca {
+	width: 100px;
+    height: 100px;
+    top: 250px;
+    left: 0;
+}*/
+
+#home-content-cb {
+    width: 180px;
+    height: 180px;
+    top: 170px;
+    left: 0px;
+    background-color: rgb(150,150,150);
+}
+#home-content-cb-p {
+	color: #fff;
+	padding: 35px 10px 10px 10px;
+}
+#home-content-cc {
+	width: 50px;
+	height: 50px;
+	background-color: rgb(39,88,159);
+	top: 170px;
+	left: 180px;
+}
+#home-content-cd {
+	width: 50px;
+	height: 50px;
+	background-color: rgb(150,150,150);
+	top: 0;
+	left: 0;
+}
+#home-content-ce {
+    width: 130px;
+    height: 130px;
+	top: 220px;
+	left: 180px;
+	background-image: url(../img/scratchcard-solutions-home-charts.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#home-content-ea {
+	width: 180px;
+    height: 180px;
+    top: 0;
+    left: 0;
+    background-color: rgb(39,88,159);
+}
+#home-content-ea-p {
+	color: #fff;
+}
+#home-content-eb {
+	width: 100px;
+    height: 100px;
+    top: 80px;
+    left: 180px;
+	background-image: url(../img/scratchcard-solutions-home-payment.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#home-content-fa {
+	width: 80px;
+	height: 80px;
+	background-color: rgb(88,91,92);
+	top: 0;
+	left: 80px;
+}
+
+#home-content-fb {
+	width: 120px;
+	height: 120px;
+	top: 0;
+	left: -40px;
+    background-color: rgb(39,88,159);
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 985px) {
+	#home-content-b,
+	#home-content-d {
+		width: 0;
+	}
+	#home-content-cd {
+		display: none;
+	}
+	#home-content-e {
+	    left: 18%;
+	    z-index: 1;
+	}
+	#home-content-f {
+	    width: 250px;
+	}
+	#home-content-ad,
+	#home-content-fb {
+		display: none;
+	}
+	#home-content-fa {
+	    left: 45px;
+	}
+
+}
+
+@media only screen and (max-width: 650px) {
+
+	/* Reset all values */
+	#home-content-a,
+	#home-content-b,
+	#home-content-c,
+	#home-content-d,
+	#home-content-e,
+	#home-content-f {
+		top: 0;
+		left: 0;
+		width: 100%;
+		display: none;
+		max-width: 500px;
+		margin: auto;
+	}
+
+	#home-content-aa,
+	#home-content-ab,
+	#home-content-ac,
+	#home-content-ad,
+	#home-content-cb,
+	#home-content-cc,
+	#home-content-cd,
+	#home-content-ce,
+	#home-content-ea,
+	#home-content-eb,
+	#home-content-fa,
+	#home-content-fb {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+	.home-content-square {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+	#home-content-logo {
+		top: 0;
+	    left: 6%;
+	}
+
+	#home-content-a {
+	    display: block;
+	    height: 170px;
+        text-align: left;
+	}
+	#home-content-aa {
+		left: 0;
+	}
+	#home-content-ab {
+	    top: 20px;
+	}
+	#home-content-ac {
+		display: none;
+	}
+	#home-content-ad {
+		top: 20px;
+		background-color: rgb(39,88,159);
+	}
+
+	#home-content-c {
+	    display: block;
+	    height: 300px;
+	    top: -30px;
+	}
+	#home-content-cb {
+		left: 6%;
+	}
+	#home-content-cc {
+	    top: -87px;
+	    left: 6%;
+	}
+	#home-content-cd {
+		display: block;
+	    top: 11%;
+	    left: -64%;
+        background-color: rgb(88,91,92);
+	}
+	#home-content-ce {
+	    top: 26%;
+	    left: 16%;
+	}
+
+	#home-content-e {
+	    top: -40px;
+	    display: block;
+	}
+	#home-content-ea {
+	    left: -10%;
+	}
+	#home-content-eb {
+	    top: -85px;
+	    left: 40px;
+	}
+
+	#home-content-f {
+	    display: block;
+        height: 80px;
+	}
+	#home-content-fa {
+		left: 30%;
+		top: -50%;
+		position: absolute;
+	}
+	#home-content-fb {
+		background-color: #fff;
+		border: 1px solid rgba(0,0,0,0.4);
+
+		background-image: url("../img/seats_1.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 350px) {
+	#home-content-logo {
+		width: 100%;
+		height: auto;
+		left: 0;
+	}
+	.footer-p {
+		padding: 25px 10px 25px 10px !important;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.home-content-square {
+		display: none !important;
+	}
+	.home-content-square-wrapper,
+	#home-content-logo,
+	#home-content-aa,
+	#home-content-cb,
+	#home-content-ea {
+		width: 100% !important;
+		height: auto !important;
+		left: 0 !important;
+		top: 0 !important;
+		display: block !important;
+	}
+	#home-content-aa-p,
+	#home-content-cb-p,
+	#home-content-ea-p {
+	    padding: 45px 15px 40px 15px;
+	}
+}
