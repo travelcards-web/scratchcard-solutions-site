@@ -1,10 +1,10 @@
 {
   "functions": {
     "api/*.php": {
-      "runtime": "vercel-php@8.2.20"
+      "runtime": "vercel-php@0.6.0"
     },
     "api/*.html": {
-      "runtime": "vercel-php@8.2.20"
+      "runtime": "vercel-php@0.6.0"
     }
   }
 }
