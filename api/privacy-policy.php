@@ -237,7 +237,7 @@ h3 {
 		</div>
 		<div id="footer">
 			<p class="footer-p">
-				&#9400; Scratchcard Solutions Ltd. <span class="footer-span">All Rights Reserved.</span><span class="footer-link-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a class="footer-link" href="contact-us.php" target="_top">Contact Us</a><span class="footer-link-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a class="footer-link" href="privacy-policy.html" target="_top">Privacy Policy</a>
+				&#9400; Scratchcard Solutions Ltd. <span class="footer-span">All Rights Reserved.</span><span class="footer-link-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a class="footer-link" href="contact-us" target="_top">Contact Us</a><span class="footer-link-separator">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a class="footer-link" href="privacy-policy" target="_top">Privacy Policy</a>
 			</p>
 		</div>
 	</div>
