@@ -33,9 +33,9 @@
 			<div id="menu-items">
 				<a class="menu-link" href="/" target="_top">Home</a>
 				<span class="menu-spacer">|</span>
-				<a class="menu-link" href="/contact-us.php" target="_top">Contact Us</a>
+				<a class="menu-link" href="/contact-us" target="_top">Contact Us</a>
 				<span class="menu-spacer">|</span>
-				<a class="menu-link" href="/privacy-policy.html" target="_top">Privacy Policy</a>
+				<a class="menu-link" href="/privacy-policy" target="_top">Privacy Policy</a>
 			</div>
 		</div>
 		<div id="home-content-a" class="home-content-square-wrapper">
